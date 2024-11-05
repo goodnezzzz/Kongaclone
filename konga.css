@@ -1,0 +1,193 @@
+* {font-family: helvetica system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+body{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(248, 244, 244);
+}
+.top-reseller{
+    margin: none;
+}
+.icon-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1.9%;
+    margin: 0.5%;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.icon{
+    width: 5%;
+    height: 2vh;
+}
+.search-container{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(237, 1, 127);
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+.search{
+    height: 100%;
+    width: 5%;
+    align-self: center;
+    color: white;
+    padding: 1% 0;
+    box-sizing: border-box;
+    padding-inline: 0.5%;
+}
+#search-bar{
+    height: 50%;
+    align-self: center;
+    border-radius: 3px;
+    border: none;
+    width: 30%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+.klogo{
+    margin-right: 3%;
+}
+.clickable{
+    padding-left: 0.5%;
+}
+.clickable:hover{
+    background-color: white;
+    color: rgb(237, 1, 127);
+}
+.question{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(194, 190, 190, 0.5);
+    border-radius: 50%;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight:bolder;
+}
+.help{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+.cart{
+    background-color: rgb(51, 178, 123);
+    width: 8%;
+    height: 60%;
+}
+.cart:hover{
+    background-color: rgb(8, 85, 8);
+}
+.nav-container{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(148, 0, 79) ;
+    box-shadow: rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+/* .nav-container,.search-container{
+    position: absolute;
+} */
+.nav{
+    color: white;
+    font-size: small;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 0.7%;
+    padding-inline: 1%;
+}
+.nav:hover{
+    background-color: white;
+    color: black;  
+}
+.ad{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 50px 0 ;
+
+}
+.ad-pic{
+    width: 80vw;
+}
+.products{
+    display: flex;
+    justify-self: center;
+    width: 80vw;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.item{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.item:hover{
+    box-shadow: 0 0 4px gray;
+}
+.item-name{
+    border-bottom: 1px solid rgb(185, 181, 181);
+    margin: 0;
+}
+.price-container{
+    display: flex;
+    margin: 5px 0;
+    border-bottom: 1px solid rgb(185, 181, 181);
+    justify-content: space-between;
+    margin-top: 0;
+}
+.main-price{
+    font-weight: bolder;
+}
+s{
+    color: grey;
+}
+.former-price{
+    color: grey;
+}
+.discount{
+    background-color: rgb(238, 131, 149);
+    border-radius: 4px;
+    color: red;
+}
+.timer{
+    border-bottom: 1px solid rgb(185, 181, 181);
+}
+.sold-container{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    gap: 48px;
+}
+.sold-text{
+    margin: 0;
+}
+.cylinder{
+    width:100px;
+    height: 10px;
+    background-color: rgb(53, 182, 53);
+    border-radius: 5px;
+}
+.cart-button{
+    height: 50px;
+    border: 1px solid rgb(240, 76, 103);
+    color: rgb(240, 76, 103);
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: medium;
+}
+.cart-button:hover{
+    background-color: rgb(240, 76, 103) ;
+    color: white;
+}
