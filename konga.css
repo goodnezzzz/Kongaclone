@@ -136,6 +136,9 @@ img{
 .item:hover{
     box-shadow: 0 0 4px gray;
 }
+.item-image{
+    height: 200px;
+}
 .item-name{
     border-bottom: 1px solid rgb(185, 181, 181);
     margin: 0;
@@ -180,12 +183,14 @@ s{
     border-radius: 5px;
 }
 .cart-button{
-    height: 50px;
+    height: 30px;
     border: 1px solid rgb(240, 76, 103);
     color: rgb(240, 76, 103);
     background-color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: medium;
+    margin-top: 8px;
+    border-radius: 5px;
 }
 .cart-button:hover{
     background-color: rgb(240, 76, 103) ;
