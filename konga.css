@@ -196,3 +196,9 @@ s{
     background-color: rgb(240, 76, 103) ;
     color: white;
 }
+.contact-footer{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(48, 45, 45);
+    display: flex;
+}
