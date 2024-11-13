@@ -76,9 +76,22 @@ img{
     gap: 1%;
 }
 .cart{
-    background-color: rgb(51, 178, 123);
+    background-color: rgb(28, 104, 71);
     width: 8%;
     height: 60%;
+    display: flex;
+    align-items: center;
+}
+.cart-item{
+    width: 15px;
+    height: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 7px;
+    color: black;
 }
 .cart:hover{
     background-color: rgb(8, 85, 8);
@@ -201,4 +214,16 @@ s{
     height: 8vh;
     background-color: rgb(48, 45, 45);
     display: flex;
+    gap: 5%;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.contact{
+    box-sizing: border-box;
+    margin:0;
+    color: rgb(117, 115, 113);
+}
+.contact:hover{
+    color: antiquewhite;
 }
