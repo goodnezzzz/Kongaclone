@@ -251,5 +251,7 @@ s{
     border-radius: 0 5px 5px 0;
 }
 .about-footer{
-    height
+    height: 40vh;
+    width: 100vw;
+    background-color: black;
 }
