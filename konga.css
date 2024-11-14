@@ -227,3 +227,26 @@ s{
 .contact:hover{
     color: antiquewhite;
 }
+#subscribe-email{
+    height: 6vh;
+    width: 25vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 0 0 5px;
+    border: 0;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border-radius: 5px 0 0 5px;
+}
+.subscribe-button{
+    height: 6vh;
+    width: 10vh;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-weight: bolder;
+    background-color: rgb(240, 76, 103);
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
