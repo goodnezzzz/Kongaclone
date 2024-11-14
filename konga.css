@@ -229,7 +229,7 @@ s{
 }
 #subscribe-email{
     height: 6vh;
-    width: 25vh;
+    width: 12vw;
     box-sizing: border-box;
     margin: 0;
     padding: 0 0 0 5px;
@@ -241,7 +241,7 @@ s{
 }
 .subscribe-button{
     height: 6vh;
-    width: 10vh;
+    width: 5vw;
     box-sizing: border-box;
     margin: 0;
     border: 0;
@@ -249,4 +249,7 @@ s{
     background-color: rgb(240, 76, 103);
     color: white;
     border-radius: 0 5px 5px 0;
+}
+.about-footer{
+    height
 }
