@@ -214,11 +214,12 @@ s{
     height: 8vh;
     background-color: rgb(48, 45, 45);
     display: flex;
-    gap: 5%;
+    gap: 6%;
     align-items: center;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content:left;
     margin-top: 2%;
+    padding-left: 10%;
 }
 .contact{
     box-sizing: border-box;
@@ -229,7 +230,7 @@ s{
     color: antiquewhite;
 }
 #subscribe-email{
-    height: 6vh;
+    height: 5vh;
     width: 12vw;
     box-sizing: border-box;
     margin: 0;
@@ -241,7 +242,7 @@ s{
     border-radius: 5px 0 0 5px;
 }
 .subscribe-button{
-    height: 6vh;
+    height: 5vh;
     width: 5vw;
     box-sizing: border-box;
     margin: 0;
@@ -254,11 +255,11 @@ s{
 .about-footer{
     height: 40vh;
     width: 100vw;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 4%;
-    padding: 1.5%;
+    padding: 1.5% 0 0 10%;
     box-sizing: border-box;
 }
 .about-konga{
@@ -281,4 +282,13 @@ s{
 }
 .about-k:hover{
     color: white;
+}
+.appStore{
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    color: rgb(175, 170, 170);
+    padding: 4px;
+    box-sizing: border-box;
+    font-weight: lighter;
 }
