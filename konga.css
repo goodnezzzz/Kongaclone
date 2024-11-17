@@ -218,6 +218,7 @@ s{
     align-items: center;
     box-sizing: border-box;
     justify-content: center;
+    margin-top: 2%;
 }
 .contact{
     box-sizing: border-box;
@@ -254,4 +255,30 @@ s{
     height: 40vh;
     width: 100vw;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    padding: 1.5%;
+    box-sizing: border-box;
+}
+.about-konga{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: fit-content;
+    width: auto;
+    color: rgb(117, 110, 110);
+    font-weight: bolder;
+}
+.about-konga:hover{
+    color: white;
+}
+.about-k{
+    color: rgb(117, 110, 110);
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: lighter;
+}
+.about-k:hover{
+    color: white;
 }
