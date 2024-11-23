@@ -145,6 +145,7 @@ img{
     flex-direction: column;
     padding: 5px;
     background-color: rgb(255, 255, 255);
+    cursor: pointer
 }
 .item:hover{
     box-shadow: 0 0 4px gray;
@@ -204,6 +205,7 @@ s{
     font-size: medium;
     margin-top: 8px;
     border-radius: 5px;
+    cursor: pointer
 }
 .cart-button:hover{
     background-color: rgb(240, 76, 103) ;
@@ -265,6 +267,8 @@ s{
 .about-konga{
     display: flex;
     flex-direction: column;
+
+    
     gap: 5px;
     height: fit-content;
     width: auto;
