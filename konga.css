@@ -138,6 +138,7 @@ img{
     height: auto;
     flex-wrap: wrap;
     gap: 10px;
+    align-items: center;
 }
 .item{
     width: 200px;
@@ -205,10 +206,10 @@ s{
     font-size: medium;
     margin-top: 8px;
     border-radius: 5px;
-    cursor: pointer
+    cursor: pointer;
 }
 .cart-button:hover{
-    background-color: rgb(240, 76, 103) ;
+    background-color: rgb(240, 76, 103);
     color: white;
 }
 .contact-footer{
@@ -267,8 +268,6 @@ s{
 .about-konga{
     display: flex;
     flex-direction: column;
-
-    
     gap: 5px;
     height: fit-content;
     width: auto;
@@ -295,4 +294,12 @@ s{
     padding: 4px;
     box-sizing: border-box;
     font-weight: lighter;
+}
+@media screen and (max-width: 1050px) {
+    .search-container, .nav-container{
+        display: none;
+    }
+    .about-footer, .contact-footer{
+        display: none;
+    }
 }
